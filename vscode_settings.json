@@ -1,0 +1,315 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "other": "on",
+      "strings": "on"
+    },
+    "editor.suggest.showWords": false
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "advancedNewFile.exclude": {
+    "node_modules": true
+  },
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [
+    "AAVE",
+    "aioredis",
+    "alice",
+    "antd",
+    "APIKEY",
+    "Asaas",
+    "autocompounds",
+    "axum",
+    "behaviour",
+    "bignumber",
+    "bindgen",
+    "blockhash",
+    "borsh",
+    "bson",
+    "btns",
+    "ccxt",
+    "cdylib",
+    "chakra",
+    "Chakra",
+    "chrono",
+    "clicksign",
+    "cnpj",
+    "codegen",
+    "consts",
+    "croncat",
+    "crosscontract",
+    "curr",
+    "dbname",
+    "defi",
+    "deserializations",
+    "devnet",
+    "doesnt",
+    "egld",
+    "EGLD",
+    "Enterpreneur",
+    "esnext",
+    "fabimg",
+    "fastapi",
+    "fastify",
+    "Fastify",
+    "fluxus",
+    "fluxusfi",
+    "Flys",
+    "hdwallet",
+    "hget",
+    "hgetall",
+    "hobbyhodlrtest",
+    "hset",
+    "huobi",
+    "Insertable",
+    "IPROTOCOL",
+    "IPROTOCOLS",
+    "isempty",
+    "jsonable",
+    "kucoin",
+    "lamports",
+    "leopollum",
+    "livn",
+    "lostfound",
+    "lptoken",
+    "luxy",
+    "maplit",
+    "Marangone",
+    "maxlength",
+    "Merkle",
+    "mesto",
+    "metapool",
+    "Metapool",
+    "middlewares",
+    "mongodb",
+    "multichain",
+    "Multichain",
+    "multiversx",
+    "neardev",
+    "ohlc",
+    "onebrc",
+    "Overridable",
+    "pancakeswap",
+    "patrick",
+    "pemb",
+    "Pemb",
+    "pembrock",
+    "pollum",
+    "Pollum",
+    "postgres",
+    "powi",
+    "psycopg",
+    "pydantic",
+    "rabbitmq",
+    "RABBITMQ",
+    "reffakes",
+    "reqwest",
+    "rlib",
+    "Rollux",
+    "ROLLUX",
+    "rustc",
+    "semibold",
+    "serde",
+    "sqlalchemy",
+    "sqlmodel",
+    "sqlx",
+    "stader",
+    "STAKERS",
+    "strat",
+    "strats",
+    "subarray",
+    "Sushiswap",
+    "synpress",
+    "synthetixio",
+    "SYSCOIN",
+    "testid",
+    "textbox",
+    "Tgas",
+    "tlds",
+    "toastify",
+    "tokio",
+    "trpc",
+    "trufflesuite",
+    "trunc",
+    "unstake",
+    "unstaked",
+    "uvicorn",
+    "Vercel",
+    "versionable",
+    "wagmi",
+    "walletconnect",
+    "WEBSERVICE",
+    "wmatic",
+    "wnear",
+    "wrapnear",
+    "Wrapnear"
+  ],
+  "debug.allowBreakpointsEverywhere": true,
+  "diffEditor.codeLens": true,
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "\"Fira Code Medium\", \"Fira Code SemiBold\", Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "errorLens.enabledDiagnosticLevels": [
+    "error"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "explorer.expandSingleFolderWorkspaces": false,
+  "extensions.autoCheckUpdates": true,
+  "extensions.autoUpdate": false,
+  "files.associations": {
+    ".env.*": "env"
+  },
+  "git.confirmSync": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "notebook.lineNumbers": "on",
+  "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUndefinedVariable": "error"
+  },
+  "python.languageServer": "Pylance",
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.enabled": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.tabs.enabled": true,
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)|todo!",
+  "update.mode": "manual",
+  "vim.autoindent": false,
+  "vim.handleKeys": {
+    "<C-[>": false,
+    "<C-]>": false,
+    "<C-a>": false,
+    "<C-b>": false,
+    "<C-c>": false,
+    "<C-d>": false,
+    "<C-f>": false,
+    "<C-i>": false,
+    "<C-j>": false,
+    "<C-k>": false,
+    "<C-n>": false,
+    "<C-o>": false,
+    "<C-v>": false,
+    "<C-w>": false,
+    "<C-x>": false,
+    "<g-i>": false
+  },
+  "vim.insertModeKeyBindings": [
+    // {
+    //   "after": ["<esc>"],
+    //   "before": ["j", "k"]
+    // },
+    {
+      "after": [
+        "<esc>",
+        "g",
+        "_",
+        "i"
+      ],
+      "before": [
+        "ctrl+l"
+      ]
+    },
+    {
+      "after": [
+        "<esc>",
+        "^",
+        "i"
+      ],
+      "before": [
+        "ctrl+h"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "after": [
+        "g",
+        "_"
+      ],
+      "before": [
+        "ctrl+l"
+      ]
+    },
+    {
+      "after": [
+        "^"
+      ],
+      "before": [
+        "ctrl+h"
+      ]
+    }
+  ],
+  "vim.searchHighlightColor": "#8A2BE2",
+  "vim.searchMatchColor": "#8A2BE2",
+  "vim.statusBarColors.searchinprogressmode": "#8A2BE2",
+  "vim.useSystemClipboard": true,
+  "vim.visualModeKeyBindings": [
+    {
+      "after": [
+        "g",
+        "_"
+      ],
+      "before": [
+        "ctrl+l"
+      ]
+    },
+    {
+      "after": [
+        "^"
+      ],
+      "before": [
+        "ctrl+h"
+      ]
+    }
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.customTitleBarVisibility": "auto",
+  "window.menuBarVisibility": "hidden",
+  "window.openFoldersInNewWindow": "default",
+  "window.restoreWindows": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.colorCustomizations": {
+    "[Mariana Pro (Cool)]": {
+      "notebook.cellBorderColor": "#ffffff"
+    },
+    "terminal.background": "#282c34"
+  },
+  "workbench.colorTheme": "Mariana Pro (Cool)",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.png": "default",
+    "*.wasm": "default"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.indent": 20,
+  "yaml.format.enable": true,
+  "yaml.schemas": {},
+  "zenMode.hideLineNumbers": false,
+  "makefile.configureOnOpen": false,
+  "window.confirmSaveUntitledWorkspace": false,
+  "git.openRepositoryInParentFolders": "always",
+  "window.zoomLevel": -1
+}
