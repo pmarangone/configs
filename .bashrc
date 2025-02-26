@@ -87,6 +87,7 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+# [patrick]
 # [profile] some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -105,13 +106,21 @@ alias rmv='rm -r -f $1'
 alias mk='make $1'
 alias co='code .'
 alias nv='nvim $1'
+alias show_running_ports='lsof -i :$1'
 
 # [profile] directories alias
 # alias cdev='cd /mnt/c/Users/Patri/wm/mainw/dev/python_'
 
 # [profile] python alias
-alias cenv='python3 -m venv .venv'
+alias cenv='python3.11 -m venv .venv'
 alias aenv='source .venv/bin/activate'
+
+
+# [profile] docker
+alias dstt='docker container start $1'
+alias dstp='docker container stop $1'
+alias dps='docker ps'
+alias dc='docker-compose $1'
 
 # [profile] rust alias
 alias rl='rustlings $1'
@@ -122,11 +131,13 @@ alias yb='yarn build'
 alias ys='yarn start'
 
 # [profile] github alias
+alias gpub='git push --set-upstream origin $(git branch --show-current)'
 alias gch='git checkout $1'
 alias gitcom='git add . && git commit -m $1'
 alias gchb='git switch -c $1'
 alias gb='git branch -a'
 alias ghard='git reset --hard'
+alias gsoft='git reset --soft HEAD~1'
 alias gpl='git pull'
 
 # [profile] auto-completion
