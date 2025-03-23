@@ -139,6 +139,7 @@ alias gb='git branch -a'
 alias ghard='git reset --hard'
 alias gsoft='git reset --soft HEAD~1'
 alias gpl='git pull'
+alias gsf='git stash push -- $1'
 
 # [profile] auto-completion
 bind '"\e[A": history-search-backward'
