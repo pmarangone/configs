@@ -3,10 +3,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
@@ -292,7 +292,8 @@
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
     "[Mariana Pro (Cool)]": {
-      "notebook.cellBorderColor": "#ffffff"
+      "notebook.cellBorderColor": "#ffffff",
+      "editorCursor.foreground": "#aec2f3",
     },
     "terminal.background": "#282c34"
   },
@@ -311,5 +312,8 @@
   "makefile.configureOnOpen": false,
   "window.confirmSaveUntitledWorkspace": false,
   "git.openRepositoryInParentFolders": "always",
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "svg.preview.mode": "svg",
+  "markdown-mermaid.darkModeTheme": "base",
+  "remote.autoForwardPortsSource": "hybrid",
 }
