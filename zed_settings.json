@@ -1,0 +1,38 @@
+{
+    "git_panel": {
+        "tree_view": true
+    },
+    "session": {
+        "trust_all_worktrees": true
+    },
+    "vim_mode": true,
+    "base_keymap": "VSCode",
+    "relative_line_numbers": "enabled",
+    "gutter": {
+        "line_numbers": true
+    },
+    "cursor_shape": "bar",
+    "file_types": {
+        "env": [".env.*"]
+    },
+    "soft_wrap": "none",
+    "ui_font_size": 16,
+    "buffer_font_size": 15,
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "Sublime Mariana"
+    },
+    "diagnostics": {
+        "button": true,
+        "include_warnings": true,
+        "inline": {
+            "enabled": true,
+            "update_debounce_ms": 150,
+            "padding": 4,
+            "min_column": 0,
+            "max_severity": null
+        },
+        "cargo": null
+    }
+}
